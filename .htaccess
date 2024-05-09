@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "My Protected Folder" 
+AuthUserFile /srv/www/vhosts/emenge.ch/httpdocs/.htpasswd 
+require valid-user
